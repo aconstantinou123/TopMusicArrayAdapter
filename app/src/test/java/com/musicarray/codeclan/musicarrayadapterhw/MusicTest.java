@@ -17,7 +17,7 @@ public class MusicTest {
 
     @Before
     public void before(){
-        music = new Music(1, "Emperor - In the Nightside Eclipse", 1994);
+        music = new Music(1, "Emperor - In the Nightside Eclipse", 1994, description);
         topMusic = new TopMusic();
     }
 

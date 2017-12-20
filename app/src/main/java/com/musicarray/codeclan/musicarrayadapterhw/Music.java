@@ -11,11 +11,13 @@ public class Music implements Serializable {
     private Integer ranking;
     private String bandNameAlbum;
     private Integer year;
+    private String description;
 
-    public Music(Integer ranking, String bandNameAlbum, Integer year) {
+    public Music(Integer ranking, String bandNameAlbum, Integer year, String description) {
         this.ranking = ranking;
         this.bandNameAlbum = bandNameAlbum;
         this.year = year;
+        this.description = description;
     }
 
     public Integer getRanking() {
@@ -30,4 +32,7 @@ public class Music implements Serializable {
         return year;
     }
 
+    public String getDescription() {
+        return description;
+    }
 }
